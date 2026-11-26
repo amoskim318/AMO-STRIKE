@@ -2,116 +2,175 @@ AMO-STRIKE
 
 Cross-Platform Android Cybersecurity & Ethical Hacking Toolkit
 
+🟠 AMO-STRIKE
+
+<div align="center">⚡ AMO-STRIKE
+
+CROSS-PLATFORM ANDROID CYBERSECURITY TOOLKIT
+
+Explore. Experiment. Understand. Strike with Knowledge.
+
+"Python" (https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+"Android" (https://img.shields.io/badge/Android-Security-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+"Windows" (https://img.shields.io/badge/Windows-Supported_Environment-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+"macOS" (https://img.shields.io/badge/macOS-Supported_Environment-555555?style=for-the-badge&logo=apple&logoColor=white)
+"Linux" (https://img.shields.io/badge/Linux-Supported_Environment-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+An interactive toolkit for Android security research, ethical hacking, and hands-on cybersecurity experimentation.
+
+</div>---
+
+🧡 About the Project
+
 AMO-STRIKE is a Python-based Android cybersecurity toolkit designed to bring practical security testing, device interaction, and research capabilities into one interactive terminal dashboard.
 
-It is built with cross-platform use in mind, supporting Windows, macOS, Linux, and Android environments.
+Built with cross-platform use in mind, AMO-STRIKE is intended for Windows, macOS, Linux, and Android environments.
 
-Why I Created AMO-STRIKE
+Instead of relying on multiple separate utilities and manually executing commands, AMO-STRIKE brings essential operations together in one organized interface.
 
-I created AMO-STRIKE because I wanted to build my own Android hacking toolkit rather than depend entirely on separate tools and manually executed commands.
+🎯 Why I Created AMO-STRIKE
 
-My interest in cybersecurity goes beyond using existing tools. I want to understand Android deeply, explore its internal mechanisms, experiment with security techniques, and develop practical tools through hands-on learning.
+I created AMO-STRIKE because I wanted to build my own Android hacking toolkit rather than depend entirely on existing tools.
+
+My interest in cybersecurity goes beyond simply using tools. I want to understand Android deeply, explore its internal mechanisms, investigate security boundaries, experiment with different techniques, and develop practical tools through hands-on learning.
 
 AMO-STRIKE is part of that journey.
 
-The idea is to bring different Android testing capabilities together in one organized interface, making security experimentation easier and providing a foundation for future development.
+The vision is to create a growing collection of Android-focused security capabilities in one place, making experimentation more convenient while providing a foundation for more advanced development.
 
-This project is developed for educational purposes, ethical hacking, authorized security testing, and cybersecurity research.
+«Built from curiosity. Driven by cybersecurity. Developed through experimentation.»
 
-Features
+---
 
-AMO-STRIKE currently provides 16 interactive dashboard options:
+🔥 Features & Capabilities
 
-1. Devices — Discover connected Android devices.
-2. Device Info — Inspect device information.
-3. File Explorer — Explore accessible device files.
-4. Shell Access — Interact with the Android shell.
-5. APK Installer — Install Android application packages.
-6. Application Manager — Explore and manage installed applications.
-7. Call Logs — Examine accessible call-log records.
-8. SMS Logs — Examine accessible SMS records.
-9. Contacts — Access available contact records.
-10. Screenshot — Capture device screenshots.
-11. Screen Record — Capture screen activity.
-12. Microphone Recording Support — Check available command-line recording utilities.
-13. USB / Wireless Modes — Manage connection modes.
-14. Restart Service — Restart the communication service.
-15. Server Manager — Start, stop, and inspect the service.
-16. Refresh / Auto-Link — Refresh connected devices and establish wireless connections.
+AMO-STRIKE currently provides 16 interactive dashboard options.
 
-Platform Compatibility
+#| Module| Capability
+01| 📱 Devices| Discover connected Android devices
+02| 🔍 Device Info| Inspect device information
+03| 📂 File Explorer| Explore accessible device files
+04| 💻 Shell Access| Interact with the Android shell
+05| 📦 APK Installer| Install Android application packages
+06| 🧩 Application Manager| Explore and manage installed applications
+07| 📞 Call Logs| Examine accessible call-log records
+08| 💬 SMS Logs| Examine accessible SMS records
+09| 👥 Contacts| Access available contact records
+10| 📸 Screenshot| Capture device screenshots
+11| 🎥 Screen Record| Capture screen activity
+12| 🎙️ Microphone Support| Check available command-line recording utilities
+13| 🔌 USB / Wireless Modes| Manage connection modes
+14| 🔄 Restart Service| Restart the communication service
+15| ⚙️ Server Manager| Start, stop, and inspect the service
+16| 🌐 Refresh / Auto-Link| Refresh devices and establish wireless connections
 
-AMO-STRIKE is designed for use across multiple operating systems:
+---
 
-- Windows — Desktop security research environment.
-- macOS — Apple desktop and laptop environment.
-- Linux — Linux-based security and development environments.
-- Android — Mobile environment, including Termux.
+🌍 Cross-Platform Vision
 
-Actual feature availability depends on operating-system support, installed dependencies, device permissions, and connection configuration.
+AMO-STRIKE is designed with multiple operating environments in mind.
 
-Requirements
+Platform| Environment
+🪟 Windows| Desktop security research
+🍎 macOS| Apple desktop and laptop systems
+🐧 Linux| Linux-based security environments
+🤖 Android| Mobile environments, including Termux
+
+Actual feature availability depends on platform support, installed dependencies, device permissions, and configuration. Individual platform compatibility should be verified through testing.
+
+---
+
+⚙️ Requirements
+
+Before running AMO-STRIKE, prepare:
 
 - Python 3.
 - Required platform communication utilities.
-- Android device with supported debugging capabilities.
+- An Android device with supported debugging capabilities.
 - USB or supported wireless connectivity.
 - Appropriate permissions for the operations being performed.
 
-Installation
+---
 
-Clone the repository:
+🚀 Installation
+
+1. Clone the repository
 
 git clone YOUR_REPOSITORY_URL
 
-Enter the project directory:
+2. Enter the project directory
 
 cd AMO-STRIKE
 
-Install dependencies:
+3. Install dependencies
 
 pip install -r requirements.txt
 
-Launch:
+4. Launch AMO-STRIKE
 
 python amo-strike.py
 
 On Android, the toolkit can be run through a compatible Python environment such as Termux.
 
-Educational Purpose
+---
 
-AMO-STRIKE is intended for:
+🎓 Educational & Research Applications
 
-- Android security research.
-- Ethical hacking education.
-- Authorized penetration testing.
-- Android application and system exploration.
-- Cybersecurity experimentation.
-- Python-based security tool development.
-- Understanding Android security mechanisms.
+AMO-STRIKE is developed to support practical learning in:
 
-Responsible Use
+- 🔐 Android security research.
+- 🛡️ Ethical hacking education.
+- 🎯 Authorized penetration testing.
+- 📱 Android application and system exploration.
+- 🧪 Cybersecurity experimentation.
+- 🐍 Python-based security tool development.
+- 🔬 Understanding Android security mechanisms.
+
+---
+
+⚠️ Responsible Use
 
 AMO-STRIKE is intended for devices you own or have explicit authorization to test.
 
 The developer does not support unauthorized access, privacy violations, or malicious use of the software.
 
-Some features may behave differently across operating systems and Android versions. Certain operations also depend on device permissions and manufacturer restrictions.
+Some capabilities depend on Android permissions, operating-system restrictions, device configuration, and manufacturer-specific implementations.
 
-Development
-
-AMO-STRIKE is an evolving cybersecurity project. Additional modules, testing capabilities, platform improvements, and security research utilities may be introduced as development continues.
-
-The long-term vision is to develop a comprehensive, cross-platform Android security toolkit through practical research, experimentation, and responsible development.
-
-License
-
-See the LICENSE file included in this repository.
+Users are responsible for complying with applicable laws and obtaining permission before conducting security tests.
 
 ---
 
-AMO-STRIKE
+🛠️ Development & Future Vision
 
-Explore. Experiment. Understand. Strike with Knowledge.
+AMO-STRIKE is an evolving cybersecurity project.
+
+Future development may include:
+
+- Additional Android security-testing modules.
+- Expanded device diagnostics.
+- More testing and automation capabilities.
+- Improved cross-platform compatibility.
+- Interface enhancements.
+- Additional research utilities.
+
+The long-term vision is to build a comprehensive Android-focused cybersecurity toolkit through practical research, experimentation, and responsible development.
+
+---
+
+📜 License
+
+This project is distributed under the license included in the repository.
+
+See the "LICENSE" (LICENSE) file for details.
+
+---
+
+<div align="center">🟠 AMO-STRIKE
+
+EXPLORE • EXPERIMENT • UNDERSTAND
+
+Strike with Knowledge.
 
 Built for Android cybersecurity education and authorized security research.
+
+</div>
